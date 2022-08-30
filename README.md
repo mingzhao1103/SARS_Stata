@@ -2,7 +2,7 @@
 
 #### Research Statement 
 
-- By exploiting SARS as an exogenous source of stress, this paper examines whether prenatal maternal exposure to such stress affects birth weight with the applicatin of Difference in Differences and Propensity Score Matching.
+- By exploiting SARS as an exogenous source of stress, this paper examines whether prenatal maternal exposure to such stress affects birth weight with the applicatin of Propensity Score Matching.
 
 #### Outline
 
