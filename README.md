@@ -2,7 +2,7 @@
 
 #### Research Statement 
 
-- By exploiting SARS as an exogenous source of stress, this paper examines whether prenatal maternal exposure to such stress affects birth weight with the applicatin of Propensity Score Matching.
+- By exploiting SARS as an exogenous source of stress, this paper examines whether prenatal maternal exposure to such stress affects birth weight with the applicatin of OLS/ANOVA, Propensity Score Matching, and Bootstrapping.
 
 #### Outline
 
@@ -17,11 +17,13 @@
   - Variables
   - Models
     - Treat SARS as a Experiment (randomized)
-      - $Y_i = \alpha + \beta\space T + e_i$ where $\beta = E(Y_i^T - Y_i^C)$ is the Average Treatment Effect (ATE) 
+      - OLS/one-way ANOVA
     - Treat SARS as a Quasi-Experiment (non-randomized)
-  - Analytical Sample
-
+      - Propensity Score Matching
+      - OLS/one-way ANOVA
+      - Bootstrapping
 - Results
+  - $Y_i = \alpha + \beta\space T + e_i$ where $\beta = E(Y_i^T - Y_i^C)$ is the Average Treatment Effect (ATE) 
 - Discussion and Conclusion
 
 #### PDF Preview
