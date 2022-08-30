@@ -17,10 +17,10 @@
   - Variables
   - Models
     - Treat SARS as a Experiment (randomized)
-      - OLS/one-way ANOVA
+      - OLS/ANOVA
     - Treat SARS as a Quasi-Experiment (non-randomized)
       - Propensity Score Matching
-      - OLS/one-way ANOVA
+      - OLS/ANOVA
       - Bootstrapping
 - Results
   - $Y_i = \alpha + \beta\space T + e_i$ where $\beta = E(Y_i^T - Y_i^C)$ is the Average Treatment Effect (ATE) 
