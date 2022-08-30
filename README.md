@@ -17,7 +17,7 @@
   - Variables
   - Models
     - SARS as a Experiment (randomized)
-      - $Y_i = \alpha + \beta T + e_i$ where $\beta$ is the Average Treatment Effect(ATE)
+      - $Y_i = \alpha + \beta\spaceT + e_i$ where $\beta$ = E(Y_i^T - Y_i^C) is the Average Treatment Effect (ATE) 
     - SARS as a Quasi-Experiment (non-randomized)
   - Analytical Sample
 
