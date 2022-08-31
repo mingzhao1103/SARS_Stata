@@ -40,11 +40,19 @@ https://github.com/mingzhao1103/Stata_SARS/blob/main/report.pdf
 
 Difference-in-Differences $(DID)$ is a quasi-experiment design that resembles a randomized experiment to learn about causal relationships: 
 
-  - $Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat\*Time) + \beta_4 \space Covariates + e_i$ where $\beta_3$ captures $DID$, the treatment effect
+  - $Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat\*Time) + \beta_4 \space [Covariates] + e_i$ where $\beta_3$ captures $DID$, the treatment effect (TE)
        
   - $DID = (Treatment_{after} - Treatment_{before}) - (Control_{after} - Control_{before})$
 
   - Parallel Trends Assumption: the treatment group and the control group would follow equal trends over time in the absence of any treatment.
+ 
+<br>
+
+Difference-in-Differences combined with Propensity Score Matching:
+
+  - Propensity Score Matching
+  
+  - $Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat\*Time) + e_i$ where $\beta_3$ is TE
 
 
 
