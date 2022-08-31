@@ -35,13 +35,13 @@ https://github.com/mingzhao1103/Stata_SARS/blob/main/report.pdf
 *NOTE*
 
 
-Difference-in-Differences (DID) is a quasi-experiment design that resembles a randomized experiment to learn about causal relationships: 
+Difference-in-Differences ($DID$) is a quasi-experiment design that resembles a randomized experiment to learn about causal relationships: 
 
-  - $$Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat\*Time) + \beta \space Covariates + e_i$$ where $\beta_3$ captures $DID$, the pure effects of treatment
+  - $$Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat\*Time) + \beta \space Covariates + e_i$$ where $\beta_3$ captures $DID$, the treatment effect
        
   - $$DID = (treatment_{after} - treatment_{before}) - (control_{after} - control_{before})$$
 
-  - Parallel Trends Assumption: the treatment group and the control group would follow equal trends over time.
+  - Parallel Trends Assumption: the treatment group and the control group would follow equal trends over time in the absence of any treatment.
 
 
 
