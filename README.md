@@ -31,14 +31,13 @@
 https://github.com/mingzhao1103/Stata_SARS/blob/main/report.pdf
 
 *NOTE*
+Difference-in-Differences ($DID$): the effects of treatment
 
-Difference-in-Differences (DID): the effects of treatment
-
-  - $Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat*Time) + e_i$ where $\beta_3$ captures DID
+  - $Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat*Time) + e_i$ where $\beta_3$ captures $DID$
        
-  - DID = $(treatment_{after} - treatment_{before}) - (control_{after} - control_{before})$
+  - $DID = (treatment_{after} - treatment_{before}) - (control_{after} - control_{before})$
 
-  - The assumption is that in the absense of any treatment, the treatment group and the control group would follow parallel trends over time
+  - Parallel Trends Assumption: the treatment group and the control group would follow equal trends over time.
 
 
 
