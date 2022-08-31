@@ -28,4 +28,15 @@
 
 #### PDF Preview
 
-https://github.com/mingzhao1103/Stata_Marriage/blob/main/report.pdf
+https://github.com/mingzhao1103/Stata_SARS/blob/main/report.pdf
+
+*NOTE*
+Difference-in-Differences (DID)
+$Y = \beta_0 + \beta_1 \space Treat + \beta_2 \space Time + \beta_3 \space (Treat*Time) + e_i$
+
+$\beta_3$ captures DID: the pure effects of treatment
+DID = (treatment_after - treatment_before) - (control_after - control_before)
+The assumption is that in the absense of any treatment, both treatment group and the control group would have followed parallel trends over time
+
+
+
