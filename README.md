@@ -23,7 +23,7 @@
       - OLS/ANOVA
       - Bootstrapping
 - Results
-  - $Y_i = \alpha + \beta\space Treat + e_i$ where $\beta = E(Y_i^T - Y_i^C)$ is the Average Treatment Effect (ATE) 
+  - $Y_i = \alpha + \beta\space Treat + e_i$ where $\beta = E(Y_i^{Treatment} - Y_i^{Control})$ is the Average Treatment Effect (ATE) 
 - Discussion and Conclusion
 
 #### PDF Preview
