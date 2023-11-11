@@ -16,9 +16,9 @@
   - Data
   - Variables
   - Models
-    - Treat SARS as a Experiment (randomized)
+    - SARS as an Experiment (randomized)
       - OLS/ANOVA
-    - Treat SARS as a Quasi-Experiment (non-randomized)
+    - SARS as a Quasi-Experiment (non-randomized)
       - Propensity Score Matching
       - OLS/ANOVA
       - Bootstrapping
